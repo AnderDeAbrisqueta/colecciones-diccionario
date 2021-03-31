@@ -6,9 +6,11 @@ import java.util.Scanner;
 
 public class MainEjercicio03 {
 
+	private static Scanner s;
+
 	public static void main(String[] args) {
 		ArrayList<Integer> numero = new ArrayList<Integer>();
-		Scanner s = new Scanner(System.in);
+		s = new Scanner(System.in);
 		
 		for (int i = 0; i < 10; i++) {
 			System.out.print("Por favor, introduce un número entero (" + (i + 1) + "): ");
