@@ -5,9 +5,11 @@ import java.util.Scanner;
 
 public class MainEjercicio05 {
 
+	private static Scanner s;
+
 	public static void main(String[] args) {
 		ArrayList<Disco> album = new ArrayList<Disco>();// Creación del Array List
-		Scanner s = new Scanner(System.in);// Definición de s para introducir los datos
+		s = new Scanner(System.in);
 
 		// Declaración de las variable
 		String codigoItroducido;
